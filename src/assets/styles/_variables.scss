@@ -1,0 +1,17 @@
+@use "sass:color";
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$color-principal: #000000;
+$color-secundario: #383636;
+$color-fondo: #ebebeb;
+$color-fondo-header: #742020;
+$color-enlaces: #ffffff;
+
+$color-borde-suave: color.adjust($color-principal, $lightness: 40%);
+$color-hover-navbar: color.adjust($color-secundario, $lightness: 20%);
+
+$ancho-minimo: 800px;

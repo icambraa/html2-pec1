@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <title>Caragols a la llauna</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="header__titulo">Caragols a la llauna</h1>
+      <p class="header__subtitulo">Receta tradicional lleidatana</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="navbar__lista">
+        <li>
+          <a href="#introduccion" class="navbar__enlace">Introducción</a>
+        </li>
+        <li>
+          <a href="#ingredientes" class="navbar__enlace">Ingredientes</a>
+        </li>
+        <li>
+          <a href="#preparacion" class="navbar__enlace">Preparación</a>
+        </li>
+        <li>
+          <a href="#curiosidades" class="navbar__enlace">Curiosidad</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main-contenido">
+      <!-- Sección de introducción -->
+      <section
+        id="introduccion"
+        class="seccion seccion--introduccion seccion--texto-izquierda"
+      >
+        <div class="seccion__texto">
+          <h2 class="seccion__titulo">
+            <i class="fas fa-info-circle"></i> Introducción
+          </h2>
+          <p class="seccion__descripcion">
+            <p>
+              La receta de <strong>caracoles a la llauna</strong> es originaria de Lleida.
+              Se elabora con caracoles de la variedad <strong><em>Bové</em></strong> por tener un grueso caparazón y ser muy sabrosos.
+            </p>
+          
+            <p>
+              En la receta original los caracoles se ponen vivos. Se limpian bien, frotándolos entre ellos y se colocan en una fuente de hierro con abundante sal gruesa
+              para que eliminen las babas y no se escapen.
+            </p>
+          
+            <p>
+              Como están más ricos, es haciéndolos con brasas. Nosotros nos vamos a adaptar a las cocinas actuales, y los vamos a hacer al horno.
+            </p>
+          
+            <p>
+              El nombre de la receta proviene del nombre en catalán del recipiente donde se elaboran, <em>“la llauna”</em> (lata), que es una bandeja de hierro
+              cuadrada o rectangular.
+            </p>
+          </p>
+        </div>
+        <figure class="seccion__contenedor-imagen">
+          <img
+            src="./assets/images/intro.jpg"
+            alt="Caracoles a la Llauna"
+            class="seccion__imagen"
+          />
+        </figure>
+      </section>
+
+      <!-- Sección de ingredientes -->
+      <section
+        id="ingredientes"
+        class="seccion seccion--ingredientes seccion--texto-derecha"
+      >
+        <div class="seccion__texto">
+          <h2 class="seccion__titulo">
+            <i class="fas fa-utensils"></i> Ingredientes
+          </h2>
+          <ul class="seccion__lista seccion__lista--ingredientes">
+            <li class="seccion__elemento-lista">
+              1 kg de caracoles vivos (limpios)
+            </li>
+            <li class="seccion__elemento-lista">Caracoles grandes</li>
+            <li class="seccion__elemento-lista">Aceite de oliva 0,4º</li>
+            <li class="seccion__elemento-lista">Sal gruesa</li>
+            <li class="seccion__elemento-lista">3 ramas de perejil</li>
+            <li class="seccion__elemento-lista">3 dientes de ajo</li>
+          </ul>
+        </div>
+        <figure class="seccion__contenedor-imagen">
+          <img
+            src="./assets/images/ingredientes.jpg"
+            alt="Ingredientes"
+            class="seccion__imagen"
+          />
+        </figure>
+      </section>
+
+      <!-- Sección de preparación -->
+      <section
+        id="preparacion"
+        class="seccion seccion--preparacion seccion--texto-izquierda"
+      >
+        <div class="seccion__texto">
+          <h2 class="seccion__titulo">
+            <i class="fas fa-fire"></i> Preparación
+          </h2>
+          <ol class="seccion__pasos">
+            <li class="seccion__paso">
+              Lo primero que tenemos que hacer es engañar los caracoles y cocerlos.
+            </li>
+            <li class="seccion__paso">
+              Untar la bandeja de hierro con aceite. Cubrir el fondo con sal gruesa.
+            </li>
+            <li class="seccion__paso">
+              Salpimentar y rociar con aceite de oliva.
+            </li>
+            <li class="seccion__paso">
+              Colocar los caracoles sobre la sal, con la parte carnosa hacia arriba. Salar ligeramente.
+            </li>
+            <li class="seccion__paso">
+              Precalentar el horno a 220º, arriba y abajo, sin aire. Introducir la bandeja en el horno a media altura. 10 minutos.
+            </li>
+            <li class="seccion__paso">
+              Mientras tanto hacer un majado con el ajo y perejil ( machacarlos en un mortero ).
+            </li>
+            <li class="seccion__paso">
+              Sacar los caracoles del horno y colocar sobre la carne de cada uno, una pizca del majado.
+            </li>
+            <li class="seccion__paso">
+              Volver a meter en el horno y dejar 10 minutos más, hasta que la molla adquiera un color dorado y esté ligeramente crujiente.
+            </li>
+            <li class="seccion__paso">
+              Acompañarlos de all i oli o vinagreta de tomate, o ambos.
+            </li>
+          </ol>
+        </div>
+        <figure class="seccion__contenedor-imagen">
+          <img
+            src="./assets/images/preparacion.jpg"
+            alt="Preparación"
+            class="seccion__imagen"
+          />
+        </figure>
+      </section>
+
+      <!-- Sección de curiosidad -->
+      <section
+        id="curiosidades"
+        class="seccion seccion--curiosidades seccion--texto-derecha"
+      >
+        <div class="seccion__texto">
+          <h2 class="seccion__titulo">
+            <i class="fas fa-lightbulb"></i> Curiosidad
+          </h2>
+          <p class="seccion__descripcion">
+            L'Aplec del Caragol es un encuentro que se hace anualmente, durante un fin de semana de mayo, 
+            en la ribera del río Segre y los Camps Elisis de Lérida desde 1980. Es una manifestación 
+            gastronómica donde el caracol es el protagonista, en su mayoría de la variedad Helix aspersa,
+             o bover en catalán, e incorpora música, charangas y un pasacalles por las calles de la ciudad.
+        </div>
+        <figure class="seccion__contenedor-imagen">
+          <img
+            src="./assets/images/aplec.jpg"
+            alt="Curiosidad"
+            class="seccion__imagen"
+          />
+        </figure>
+      </section>
+    </main>
+    <!-- Footer -->
+    <include src="./views/footer.html"></include>
+    <!-- Js -->
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
+</html>
